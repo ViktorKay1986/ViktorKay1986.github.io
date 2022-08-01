@@ -1,0 +1,75 @@
+@font-face {
+  font-family: consolas;
+  src: url(assets/consola.ttf);
+}
+
+#intro h1,
+#intro h2,
+.article h2,
+.article h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: consolas;
+  background-image: url(assets/topography.webp);
+  background-repeat: repeat;
+}
+
+h2 {
+  color: #ff0099;
+}
+
+nav {
+  background-color: #333333;
+  margin: 0;
+  display: flex;
+}
+
+nav ul {
+  margin-right: 10%;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: #ff0099;
+  display: block;
+  padding-right: 0.5em;
+  text-transform: uppercase;
+}
+
+#logo {
+  margin-left: 10%;
+  margin-right: auto;
+}
+
+#intro {
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 30px;
+}
+
+#break {
+  text-align: center;
+}
+
+#articles-container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#articles-container p {
+  font-size: 0.85em;
+}
+
+#articles-container h2 {
+  text-align: center;
+  color: black;
+}
